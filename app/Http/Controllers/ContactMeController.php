@@ -34,6 +34,13 @@ class ContactMeController extends Controller
      */
     public function store(Request $request)
     {
+        //validating the input
+        $validator = $request->validate([
+            'name'=>'string|required|min:3',
+            'email'=>'required|email',
+            'subject'=>'string|required|min:3',
+            'message'=>'string|required|min:8'
+        ]);
         //create new instance
         $contactMe = new ContactMe;
         $contactMe->name = $request->input("name");
@@ -41,7 +48,7 @@ class ContactMeController extends Controller
         $contactMe->subject = $request->input("subject");
         $contactMe->message = $request->input("message");
         $contactMe->save();
-        return back();
+        return back()->with('sent-message','Your message has been sent. Thank you!');
     }
 
     /**

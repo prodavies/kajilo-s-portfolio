@@ -4,7 +4,6 @@
     <li class="<?php if($pageTitle == 'about'){echo 'active';}?>"><a href="{{ route("about") }}">About</a></li>
     <li class="<?php if($pageTitle == 'resume'){echo 'active';}?>"><a href="{{ route("resume") }}">Resume</a></li>
     <li class="<?php if($pageTitle == 'projects'){echo 'active';}?>"><a href="{{ route("services") }}">Projects</a></li>
-    <li class="<?php if($pageTitle == 'portfolio'){echo 'active';}?>"><a href="{{ route("portfolio") }}">Portfolio</a></li>
     <li class="<?php if($pageTitle == 'contact'){echo 'active';}?>"><a href="{{ route("contact") }}">Contact</a></li>
     </ul>
   </nav><!-- .nav-menu -->
