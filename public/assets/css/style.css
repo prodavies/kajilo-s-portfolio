@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #f5f2ed;
+  background: #D4D8E1;
   box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.08);
   z-index: 997;
   padding: 15px 0;
@@ -168,7 +168,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #888888;
+  color: #222222;
   transition: 0.3s;
   font-size: 15px;
   font-family: "Raleway", sans-serif;
@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #34b7a7;
+  background-color: #003366;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -194,7 +194,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #222222;
+  color: #960707;
 }
 
 .nav-menu .drop-down ul {
@@ -430,22 +430,23 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 700;
   line-height: 56px;
   color: #222222;
 }
 
 #hero h2 {
-  color: #3d3838;
+  color: #222222;
   margin: 10px 0 0 0;
+  font-style: italic;
   font-size: 22px;
 }
 
 #hero .btn-about {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 12px;
   letter-spacing: 1px;
   display: inline-block;
@@ -495,7 +496,7 @@ section {
 }
 
 .section-bg {
-  background-color: #e7f8f6;
+  background-color: #aabbb9;
 }
 
 .section-title {
@@ -805,7 +806,7 @@ section {
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: #fff;
+  background: #aab6a0;
   box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
 }
 
