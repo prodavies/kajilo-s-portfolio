@@ -20,7 +20,7 @@
                 </svg>
                 <i class="bx bxl-dribbble"></i>
               </div>
-              <h4><a href="https://makini.co.tz" target="blank">Makini</a></h4>
+              <h4><a href="https://test.makini.co.tz/" target="_blank">  <b>Makini</b></a></h4>
               <p>Electronic financial management system</p>
             </div>
           </div>
@@ -33,7 +33,7 @@
                 </svg>
                 <i class="bx bx-arch"></i>
               </div>
-              <h4><a href="https://prasdel.co.tz" target="blank">Prasdel</a></h4>
+              <h4><a href="https://prasdel.co.tz/" target="_blank"> <b> Prasdel</b></a></h4>
               <p>Practical skills development link (Prasdel)</p>
             </div>
           </div>
